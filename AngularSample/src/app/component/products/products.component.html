@@ -1,0 +1,38 @@
+<div class="container">  
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="alert alert-warning">
+        <strong>Start..</strong> try to learn accurately!
+      </div>
+    </div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" id="searchBox" [(ngModel)]="search"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 well">
+      
+    </div>
+    <div *appExist="search.length>0" class="col-sm-4">      
+      <h1 appHighlightText [highlightColor]="'orange'">
+        {{data}}  <small >{{search}}</small>
+      </h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <button class="btn btn-primary" (click)="changeOdd()">click me</button>
+    </div>
+    <div class="col-sm-4">
+      <div *ngIf="isOdd else evens;">
+        <p class="text-success">odd</p>
+      </div>
+      <ng-template #evens>
+        <p class="text-success">even</p>
+      </ng-template>
+    </div>
+  </div>
+
+</div>
+

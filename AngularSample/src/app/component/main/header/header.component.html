@@ -1,0 +1,32 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a class="navbar-brand" href="/">
+      <img src="assets/icon/logo.png" width="30" height="30" alt="Logo">
+    </a>
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="/">Products</a>
+    <div class="btn-group" appDropdown #r="appDropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        other
+      </button>
+      <div class="dropdown-menu" [ngClass]="{'show':r.isOpen}">
+        <a class="dropdown-item" href="#">Health</a>
+        <a class="dropdown-item" href="#">Sport</a>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end">
+      <form class="form-inline  float-right">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <h1>Angular Learning Sample</h1>
+    <p>
+      I'm trying to learn Angular and create a sample application as a front-end .
+    </p>
+  </div>
+
+</div>

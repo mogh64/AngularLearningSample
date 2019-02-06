@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApi", "SampleApi\SampleApi.csproj", "{8305EFBB-EE98-4F7A-AED9-169F1AD37FDA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{849F7D82-EEC5-4162-80DA-0E71552A54EA}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "AngularSample", "AngularSample\AngularSample.njsproj", "{444B904F-3B49-4EE5-8B51-829AC6755B4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8305EFBB-EE98-4F7A-AED9-169F1AD37FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8305EFBB-EE98-4F7A-AED9-169F1AD37FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8305EFBB-EE98-4F7A-AED9-169F1AD37FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8305EFBB-EE98-4F7A-AED9-169F1AD37FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849F7D82-EEC5-4162-80DA-0E71552A54EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849F7D82-EEC5-4162-80DA-0E71552A54EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849F7D82-EEC5-4162-80DA-0E71552A54EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849F7D82-EEC5-4162-80DA-0E71552A54EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444B904F-3B49-4EE5-8B51-829AC6755B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444B904F-3B49-4EE5-8B51-829AC6755B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444B904F-3B49-4EE5-8B51-829AC6755B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444B904F-3B49-4EE5-8B51-829AC6755B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E9EA137-722E-4D82-8DA3-F298A0FCD7A4}
+	EndGlobalSection
+EndGlobal
